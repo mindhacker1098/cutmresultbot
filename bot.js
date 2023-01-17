@@ -55,6 +55,7 @@ s+=`${data[0]["Registration No"]}
 `
 }
 s+=`${data[data.length-1].resul}`
+console.log(s)
 bot.sendMessage(chatId,s)
 
     })
